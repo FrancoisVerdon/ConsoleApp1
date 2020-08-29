@@ -6,6 +6,11 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            DisplayMessage();
+        }
+
+        private static void DisplayMessage()
+        {
             Console.WriteLine("Hello There!");
         }
     }
